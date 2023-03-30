@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990831043480",
+    "project_id": "tpkaoplacesearchmrhi2023",
+    "storage_bucket": "tpkaoplacesearchmrhi2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990831043480:android:1956d35dbb47e9bf4e81ed",
+        "android_client_info": {
+          "package_name": "com.mrhi2023.tpkaosearchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990831043480-11cstniael65v8fp2v27vaqsuot63345.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMTW5i4qZz3fVCDbUVg8tSZ4z5oJM7D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990831043480-11cstniael65v8fp2v27vaqsuot63345.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
