@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "990831043480-11cstniael65v8fp2v27vaqsuot63345.apps.googleusercontent.com",
+          "client_id": "990831043480-d1qd0sunlsl2qch5h65i08jsgdu8o4u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrhi2023.tpkaosearchapp",
+            "certificate_hash": "5e00eb852a12f506f0e71641eab81383004744fd"
+          }
+        },
+        {
+          "client_id": "990831043480-oj5dl0dcgtrt0tbg9v7hs61afuah8jnu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
