@@ -1,10 +1,12 @@
 package com.mrhi2023.tpkaosearchapp.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.mrhi2023.tpkaosearchapp.activities.PlaceUrlActivity
 import com.mrhi2023.tpkaosearchapp.databinding.RecyclerItemListFragmentBinding
 import com.mrhi2023.tpkaosearchapp.model.Place
 
@@ -26,6 +28,12 @@ class PlaceListRecyclerAdapter(var context: Context, var documents:MutableList<P
 //        else holder.binding.tvAddress.text= place.road_address_name
         holder.binding.tvAddress.text= if(place.road_address_name=="") place.address_name else place.road_address_name
         holder.binding.tvDistance.text= "${place.distance}m"
+
+        holder.binding.root.setOnClickListener {
+            val intent:Intent= Intent(context, PlaceUrlActivity::class.java)
+            intent.putExtra("place_url", place.place_url)
+            context.startActivity(intent)
+        }
 
 
     }
