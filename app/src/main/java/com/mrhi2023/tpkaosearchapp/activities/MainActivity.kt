@@ -103,6 +103,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.ivMyLocation.setOnClickListener { requestMyLocation() }
 
+
     }//onCreate method..
 
     //퍼미션 요청 대행사 계약 및 등록
@@ -247,8 +248,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         when(item.itemId){
-            R.id.menu_aa-> Toast.makeText(this, "aa", Toast.LENGTH_SHORT).show()
-            R.id.menu_bb-> Toast.makeText(this, "bb", Toast.LENGTH_SHORT).show()
+            R.id.menu_aa-> Toast.makeText(this, "검색장소를 입력하세요", Toast.LENGTH_SHORT).show()
+            R.id.menu_bb-> Toast.makeText(this, "Retrofit, Glide, Kakao API, Naver API, Google API, GSON", Toast.LENGTH_SHORT).show()
         }
 
         return super.onOptionsItemSelected(item)
